@@ -1,1 +1,6 @@
-//your JS code here. If required.
+const nameInput = document.getElementById("fname");
+
+
+nameInput.addEventListener("blur", function() {
+  this.value = this.value.toUpperCase();
+});
